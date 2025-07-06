@@ -29,20 +29,20 @@
   <link rel="icon" type="image/svg+xml" href="/flag_b.svg">
 </head>
 <body>
-  <header class="site-header">
-    <nav class="navbar">
-      <div class="container" style="display: flex; justify-content: flex-end; align-items: center;">
+
+  <main class="main-content">
+    <header class="site-header">
+      <button class="nav-toggle" aria-label="Open navigation">&#9776;</button>
+      <nav class="navbar-sidebar">
         <ul class="nav-menu">
           <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
           <li><a href="/specifications">Specifications</a></li>
           <li><a href="/download">Download</a></li>
+          <li><a href="/about">About</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
-      </div>
-    </nav>
+      </nav>
   </header>
-  <main class="main-content">
     <h1 id="contact-oidi">Contact <span class="org-name">OIDI</span></h1>
 
 <p>Have questions about the <strong>International Organization for Identity Documents</strong> (<span class="org-name">OIDI</span>) flag or need additional information?</p>
@@ -64,12 +64,11 @@
 <p>Stay connected with <span class="org-name">OIDI</span> on social media:</p>
 
 <ul>
-  <li><strong>Twitter</strong>: <a href="https://twitter.com/oidi_official">@oidi_official</a></li>
-  <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/company/oidi">International Organization for Identity Documents</a></li>
-  <li><strong>Facebook</strong>: <a href="https://www.facebook.com/oidi.official">OIDI Official</a></li>
+  <li><strong>Instagram</strong>: <a href="https://instagram.com/oidi.int">@oidi.int</a></li>
+  <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/company/oidi">International Organization for Identity Documents</a>
+    <h2 id="mailing-address">Mailing Address</h2>
+  </li>
 </ul>
-
-<h2 id="mailing-address">Mailing Address</h2>
 
 <p><strong>International Organization for Identity Documents</strong><br />
 123 Identity Standards Boulevard<br />
@@ -78,7 +77,7 @@ Global City, GC 12345<br />
 International</p>
 
   </main>
-<footer class="site-footer">
+  <footer class="site-footer">
     <div class="container">
       <p>&copy; 2025 <span class="org-name">International Organization for Identity Documents</span>. All rights reserved.</p>
       <div class="footer-codes">
@@ -87,7 +86,7 @@ International</p>
         <span class="footer-code">XOG</span>,
         <span class="footer-code">XOD</span>
       </div>
-    <div class="footer-codes">
+      <div class="footer-codes">
         <strong>ISO 3166-1 NUMERIC:  </strong>
         <span class="footer-code">907</span>,
         <span class="footer-code">955</span>,
@@ -98,3 +97,11 @@ International</p>
         <a href="https://www.linkedin.com/company/oidi" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </div>
+  </footer>
+  <script>
+    document.querySelector('.nav-toggle').onclick = function() {
+      document.querySelector('.navbar-sidebar').classList.toggle('open');
+    };
+  </script>
+</body>
+</html>
