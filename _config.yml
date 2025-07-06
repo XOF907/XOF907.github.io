@@ -1,0 +1,57 @@
+title: "OIDI Flag"
+description: "Official information about the International Organization for Identity Documents (OIDI) flag, its design, specifications, and significance in global identity document standards."
+url: "https://xof955.github.io"
+baseurl: ""
+author: 
+  name: "International Organization for Identity Documents"
+  email: "contact@oidi.org"
+
+
+
+
+social:
+  name: International Organization for Identity Documents
+  links:
+    - https://www.linkedin.com/company/oidi
+
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Collections
+collections:
+  flags:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+      author: "OIDI"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "flags"
+    values:
+      layout: "flag"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
