@@ -24,10 +24,8 @@ For questions about flag specifications, usage guidelines, or licensing:
 
 Stay connected with <span class="org-name">OIDI</span> on social media:
 
-- **Twitter**: [@oidi_official](https://twitter.com/oidi_official)
+- **Instagram**: [@oidi.int](https://instagram.com/oidi.int)
 - **LinkedIn**: [International Organization for Identity Documents](https://www.linkedin.com/company/oidi)
-- **Facebook**: [OIDI Official](https://www.facebook.com/oidi.official)
-
 ## Mailing Address
 
 **International Organization for Identity Documents**  
